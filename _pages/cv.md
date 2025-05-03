@@ -7,58 +7,43 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Ching-Hsiang (Joe) Chan
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+📧 Email: c.ching-hsiang@wustl.edu  
+📱 Phone: +1-314-897-9800  
+🌐 Website: [https://ching-hsiang-18.github.io](https://ching-hsiang-18.github.io)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Cyber-physical security, Real-time Systems, Machine Learning Security
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Education
+
+**Washington University in St. Louis**, Missouri, USA  
+*Ph.D. in Computer Science and Engineering*  
+2024–Present  
+Advisor: Dr. Ning Zhang
+
+**National Taiwan University**, Taipei, Taiwan  
+*B.S. in Electrical Engineering*  
+2019–2024
+
+---
+
+## Honors and Awards
+
+- WashU Dean's Select PhD Fellowship, 2024
+
+---
+
+## Publications
+
+### Conference Papers
+
+1. Zihan Li, Han Liu, Ao Li, _Ching-Hsiang Chan_, Yevgeniy Vorobeychik, William Yeoh, Wenjing Lou, Ning Zhang  
+   **Resilient Federated Learning on Embedded Devices with Constrained Network Connectivity**  
+   *Design Automation Conference (DAC)*, 2025.
