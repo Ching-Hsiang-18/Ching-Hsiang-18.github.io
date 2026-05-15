@@ -73,6 +73,15 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
 
+        {% if page.collection == 'publications' and page.paperurl %}
+          <p><a href="{{ page.paperurl }}" class="btn btn--primary">Open PDF</a></p>
+          <iframe
+            src="{{ page.paperurl }}"
+            title="{{ page.title | strip_html | escape }} PDF"
+            style="width: 100%; min-height: 78vh; border: 1px solid #ddd;"
+          ></iframe>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
